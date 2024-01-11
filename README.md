@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&text=SHALOM)
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&text=一以貫之)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?tab=overview&from=2024-01-01&to=2024-01-11&url=https%3A%2F%2Fgithub.com%2Fstooiyaren&count_bg=%23000000&title_bg=%2388AFF7&icon=opsgenie.svg&icon_color=%2361E7DB&title=welcome&edge_flat=true)](https://hits.seeyoufarm.com)
 
 <div align=center>
@@ -29,6 +29,10 @@
 
 # 👋 안녕하세요 저는 @stooiyaren 입니다.
 - 👀 I’m interested in 보드게임, 독서, 게임, 스포츠
+ - 독서 추천 : 부자아빠 가난한 아빠, 게임이론, 미움받을용기
+ - 보드게임 추천 : 푸드체인거물, 크레이지타임, 달무티, 스플랜더, 정령섬
+ - 스포츠 같이 하실분(하는거만 좋아하는 몸치) : 볼링, 당구, 등산, 축구, 풋살, 탁구, 농구
+
 - 🌱 I’m currently learning python, 글쓰기
 
 <div align=center>
