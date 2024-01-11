@@ -15,7 +15,7 @@
   ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
   ![Microsoft PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
   ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)  
-  Auto CAD / 
+  Auto CAD | Spaceclaim | Catia | Ansys
 </div>
 
 <div align=center>
@@ -23,15 +23,15 @@
   
   ![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)
   ![KakaoTalk](https://img.shields.io/badge/kakaotalk-ffcd00.svg?style=for-the-badge&logo=kakaotalk&logoColor=000000)
-  ![Apple](https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white)
-  
+  ![Apple](https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white)  
+  [Naver blog](https://blog.naver.com/jk05117)
 </div>
 
 # 👋 안녕하세요 저는 @stooiyaren 입니다.
 - 👀 I’m interested in 보드게임, 독서, 게임, 스포츠
 - 🌱 I’m currently learning python, 글쓰기
 
-<div align=left>
+<div align=center>
  
   **백준** 
 
@@ -40,7 +40,7 @@
 </div>
 
 
-<div align=left>
+<div align=center>
 
   **깃허브 활동**
   
