@@ -1,5 +1,5 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&text=SHALOM)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?tab=overview&from=2024-01-01&to=2024-01-11&url=https%3A%2F%2Fgithub.com%2Fstooiyaren&count_bg=%23000000&title_bg=%2388AFF7&icon=opsgenie.svg&icon_color=%2361E7DB&title=welcome&edge_flat=true)](https://hits.seeyoufarm.com)
 
 <div align=center>
   **Can language**
