@@ -40,7 +40,7 @@
   **백준** 
 
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/generate_badge?boj=jk05117)](https://solved.ac/{handle})
+프로필](http://mazassumnida.wtf/api/generate_badge?boj=jk05117)](https://solved.ac/jk05117)
 ![mazandi profile](http://mazandi.herokuapp.com/api?handle=jk05117&theme=warm)
 </div>
 
