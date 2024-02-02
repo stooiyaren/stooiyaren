@@ -1,16 +1,20 @@
-T = int(input())
-for t in range(1, T+1):
-    N,M = map(int,input().split())
-    matrix =[[0]*(M+2)]*(N+2)
-    for i in range(1,N+1):
-        n = list(map(int,input().split()))
-        matrix[i] = [0] + n + [0]
-    pollen = 0
-    best = 0
+di = [0,1,0,-1]
+dj = [1,0,-1,0]
 
-    for i in range(1,N):
-        for j in range(1,M):
-            pollen = matrix[i][j] + matrix[i-1][j] + matrix[i+1][j] + matrix[i][j-1] + matrix[i][j+1]
-            if pollen > best:
-                best = pollen
-    print(f'#{t} {best}')
+T = int(input())
+for tc in range(1,T+1):
+    N,M = map(int,input().split())
+    arr = [list(map(int,input().split())) for _ in range(N)]
+
+    max_v = 0
+    for i in range(N):
+        for j in range(M):
+            cnt = arr[i][j]
+            for k in range(4):
+                ni = i+di[k]
+                nj = j+dj[k]
+                if 0<= ni <N and 0<= nj < M:
+                    cnt += arr[ni][nj]
+            if max_v < cnt:
+                max_v = cnt
+    print(f'#{tc} {max_v}')
