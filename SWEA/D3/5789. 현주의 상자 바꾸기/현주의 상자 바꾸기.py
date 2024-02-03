@@ -6,5 +6,5 @@ for t in range(1, T + 1):
         L, R = map(int, input().split())
         for j in range(L, R + 1):
             lst[j] = i
-    lst.pop(0) 
+    lst.pop(0)
     print(f'#{t}', *lst)
