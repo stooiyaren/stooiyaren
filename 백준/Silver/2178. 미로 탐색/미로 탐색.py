@@ -7,7 +7,7 @@ def bfs(start, goal):
     q.append(start)    
     while q:
         start = q.popleft()
-
+        
         for i in range(4):
             dx = start[0]+di[i]
             dy = start[1]+dj[i]
@@ -18,9 +18,11 @@ def bfs(start, goal):
                 maze[dx][dy] = 0
     
 from collections import deque
+import sys
+input = sys.stdin.readline
 
 N, M = map(int,input().split())
-maze =[deque(map(int,input())) for _ in range(N)]
+maze =[deque(map(int,input().strip())) for _ in range(N)]
 
 S = [0,0,1]
 G = [N-1,M-1]
