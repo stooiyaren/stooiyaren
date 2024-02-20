@@ -1,24 +1,25 @@
 T = int(input())
-for t in range(1,T+1):
-    N,K = map(int,input().split())
-    matrix = [[0]*(N+2)]*(N+2)
-    answer = [0] + [1]*K +[0]
-    for i in range(1,N+1):
-        n = list(map(int,input().split()))
-        matrix[i] = [0]+ n +[0]
+for tc in range(1,T+1):
+    N, K = map(int,input().split())
+    board = [['0']*(N+2)] + [(['0'] + list(map(str,input().split())) + ['0']) for _ in range(N)] + [['0'] * (N+2)]
     cnt = 0
-    for i in range(N-K+1):
-        for j in range(N+2):
-            lst = []
+
+    for i in range(len(board)):
+        for j in range(len(board) - K -1):
+            cross = []
             for k in range(K+2):
-                lst.append(matrix[i+k][j])
-            if lst == answer:
-                cnt +=1
-    for i in range(N+2):
-        for j in range(N-K+1):
-            lst = []
+                cross.append(board[i][j+k])
+            if cross == (['0'] + ['1']*K + ['0']):
+                cnt += 1
+
+    board = list(map(list,zip(*board)))
+
+    for i in range(len(board)):
+        for j in range(len(board) - K -1):
+            cross = []
             for k in range(K+2):
-                lst.append(matrix[i][j+k])
-            if lst == answer:
-                cnt +=1
-    print(f'#{t} {cnt}')
+                cross.append(board[i][j+k])
+            if cross == (['0'] + ['1']*K + ['0']):
+                cnt += 1
+
+    print(f'#{tc}', cnt)
