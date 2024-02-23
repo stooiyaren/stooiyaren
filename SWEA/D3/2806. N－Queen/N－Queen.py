@@ -1,46 +1,37 @@
-def dfs(x,y):
-    global cnt
+dx = [-1, -1, -1, 0, 0, 1, 1, 1]
+dy = [-1, 0, 1, -1, 1, -1, 0, 1]
 
-    if len(queenx) == N:
+def dfs(x, chess):
+    global cnt
+    if x == N:
         cnt += 1
         return
+    for y in range(N):
+        if chess[x][y] == 0:
+            chess_copy = [row[:] for row in chess]
+            bfs(x, y, chess_copy)
+            dfs(x + 1, chess_copy)
 
-    for i in range(y,N):
-        for j in range(N):
-            if check(j,i):
-                queenx.append(j)
-                queeny.append(i)
-                queens.append([j,i])
-                dfs(j,i)
-                queenx.pop()
-                queeny.pop()
-                queens.pop()
-
-def check(x,y):
-    if y in queeny:
-        return False
-    if x in queenx:
-        return False
-    for k in queens:
-        if abs(x - k[0]) == abs(y - k[1]):
-            return False
-    return True
+def bfs(x, y, chess):
+    chess[x][y] = 1
+    for k in range(8):
+        l = 1
+        nx = x + dx[k] * l
+        ny = y + dy[k] * l
+        while 0 <= nx < N and 0 <= ny < N:
+            chess[nx][ny] = 1
+            l += 1
+            nx = x + dx[k] * l
+            ny = y + dy[k] * l
 
 T = int(input())
 for tc in range(1,T+1):
     N = int(input())
-    chess = [[0]*N for _ in range(N)]
+    chess = [[0] * N for _ in range(N)]
     cnt = 0
-    queenx = []
-    queeny = []
-    queens = []
+    
     for i in range(N):
-        queenx.append(i)
-        queeny.append(0)
-        queens.append([i, 0])
-        dfs(i,0)
-        queenx.pop()
-        queeny.pop()
-        queens.pop()
-
+        dfs(0, chess)
+        bfs(0, i, chess)
+    
     print(f'#{tc}', cnt)
