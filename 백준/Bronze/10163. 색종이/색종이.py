@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 flat = [[0]*1001 for _ in range(1001)]
 n = int(input())
 for i in range(1,n+1):
