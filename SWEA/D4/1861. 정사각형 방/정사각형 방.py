@@ -1,41 +1,54 @@
+# 정사각형 방
+
 from collections import deque
 
-dx = [-1, 1, 0, 0]
-dy = [0, 0,-1,1]
+dx = [-1,1,0,0]
+dy = [0,0,-1,1]
 
-def bfs(start):
+def bfs(x,y):
     q = deque()
-    q.append(start)
-    move = 0
+    q.append([x,y, square[x][y]])
+    mn =square[x][y]
+    square[x][y] = -1
+    cnt = 1
+
     while q:
-        start = q.popleft()
+        x, y, height = q.popleft()
 
-        for k in range(4):
-            di = start[0] + dx[k]
-            dj = start[1] + dy[k]
+        for i in range(4):
+            di = x + dx[i]
+            dj = y + dy[i]
 
-            if 0 <= di < N and 0 <= dj < N and rooms[di][dj] == (start[3] + 1):
-                q.append([di,dj,start[2]+1,rooms[di][dj]])
-                if start[2] +1 > move:
-                         move = start[2] + 1
-    return move
-        
+            if 0 <= di < N and 0 <= dj < N and square[di][dj] != -1:
+                if abs(square[di][dj] - height) == 1:
+                    q.append([di,dj,square[di][dj]])
+                    cnt += 1
+
+                    if square[di][dj] < mn:
+                        mn = square[di][dj]
+
+                    square[di][dj] = -1
+    return cnt, mn
+
 
 T = int(input())
 for tc in range(1,T+1):
     N = int(input())
+    square = [list(map(int,input().split())) for _ in range(N)]
 
-    rooms = [list(map(int,input().split())) for _ in range(N)]
-    best = 0
-    ans = []
-    
+    ans = 0
+    mini = 0
+
     for i in range(N):
         for j in range(N):
-            n = bfs([i,j,1,rooms[i][j]])
+            if square[i][j] != -1:
+                cal, num  = bfs(i,j)
+                if  cal >= ans:
 
-            if n > best:
-                best = n
-                ans = [rooms[i][j]]
-            elif n == best:
-                ans.append(rooms[i][j])
-    print(f'#{tc}', min(ans), best)
+                    if cal == ans:
+                        if mini > num:
+                            mini = num
+                    else:
+                        ans = cal
+                        mini = num
+    print(f'#{tc} {mini} {ans}')
