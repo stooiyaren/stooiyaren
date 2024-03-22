@@ -4,6 +4,7 @@ def kru(edges):
             return x
         parent[x] = find_set(parent[x])
         return parent[x]
+     
 
     def union(x, y):
         x = find_set(x)
