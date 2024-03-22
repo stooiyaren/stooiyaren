@@ -2,7 +2,8 @@ def kru(edges):
     def find_set(x):
         if parent[x] == x:
             return x
-        return find_set(parent[x])
+        parent[x] = find_set(parent[x])
+        return parent[x]
 
     def union(x, y):
         x = find_set(x)
@@ -33,6 +34,6 @@ for tc in range(1, T + 1):
             l = ((x[i] - x[j]) ** 2 + (y[i] - y[j]) ** 2)
             edges.append((l * E, i, j))
 
-    edges.sort()
+    edges.sort(key = lambda x: x[0])
 
     print(f'#{tc} {round(kru(edges))}')
