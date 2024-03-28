@@ -1,3 +1,4 @@
+
 # N을 두개로 나누는 방법
 def devide(i,k):
     global mn
