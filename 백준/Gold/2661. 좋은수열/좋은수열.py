@@ -1,4 +1,3 @@
-
 def thriary(i):
     global N, check, ans
     # i까지 검사했을때 같은 패턴이 두번 반복되는게 있다면 prunning
@@ -12,7 +11,6 @@ def thriary(i):
         num2 = ans[i-2*j:i-j]
         if num1 == num2:
             return
-    
 
     if i == N:
         print(''.join(map(str,ans)))        
