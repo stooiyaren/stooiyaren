@@ -6,6 +6,9 @@
   
   ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  
 </div>
 
 
@@ -14,7 +17,11 @@
   
   ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
   ![Microsoft PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
-  ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)  
+  ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)
+  ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+  ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+  ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+  ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
   Auto CAD | Spaceclaim | Catia | Ansys
 </div>
 
@@ -27,13 +34,22 @@
   [Naver blog](https://blog.naver.com/jk05117)
 </div>
 
+<div align=center>
+  **having experience**
+ 
+  ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+  ![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)
+  ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+  
+</div>
+
 # 👋 안녕하세요 저는 @stooiyaren 입니다.
 - 👀 I’m interested in 보드게임, 독서, 게임, 스포츠
  - 독서 추천 : 부자아빠 가난한 아빠, 게임이론, 미움받을용기
  - 보드게임 추천 : 푸드체인거물, 크레이지타임, 달무티, 스플랜더, 정령섬
  - 스포츠(하는거만 좋아하는 몸치) : 볼링, 당구, 등산, 축구, 풋살, 탁구, 농구
 
-- 🌱 I’m currently learning python, 글쓰기
+- 🌱 I’m currently learning catia, autoCAD, Ansys, 글쓰기
 
 <div align=center>
  
@@ -52,8 +68,6 @@
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=stooiyaren&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stooiyaren)
 </div>
-
-
 
 
 <div align=left>
@@ -78,17 +92,18 @@
   2022 | 대구엑스코 자율주행 경진대회 | 서류탈락
   " | 국민대 자율주행 경진대회 | 예선탈락
   " | 만도 자율주행 경진대회 | 결선탈락
-  " | 위험물 산업기사 | -
+  " | 위험물 산업기사 | 취득
   2023 | 청년 하이파이브 8기 | 120h
   " | 포스코 취업아카데미 23- 2 | 160h
   " | 포스코 취업아카데미 과제 | 최우수
   " | OPIC | IM2
-  " | 산업안전기사 | -
+  " | TOEIC | 730
+  " | 산업안전기사 | 취득
   " | 영어학원 보조 아르바이트 | 8개월
   " | 취준 | 30탈 1합
-  2024 | SSAFY 11기 | 진행중
-
-
+  2024 | SSAFY 11기 | 1학기 후 종료
+  " | SSAFY 관통 프로젝트 | GAZA, 가라
+  " | 경북 첨단산업 인재양성 사업 | 진행중
   
 </div>
 
